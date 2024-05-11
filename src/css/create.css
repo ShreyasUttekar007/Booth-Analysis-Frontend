@@ -1,0 +1,87 @@
+.data-container {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #dfdcdc;
+}
+.data-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main-ac-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fields-div {
+  display: flex;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+input::placeholder {
+  color: black;
+}
+.display-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display-data2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  width: 275px;
+}
+.input-fields {
+  font-size: 18px;
+
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: fit-content;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
